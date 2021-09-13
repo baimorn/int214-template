@@ -30,18 +30,19 @@ library(name)
 dataset <- read_csv("")
 ```
 
-## Step 1: xxxxxx
+## Step 1: How many observation of this dataset
 
-//Explain here
+//ใช้ในการค้นหาจำนวนข้อมูลทั้งหมดที่อยู่ใน Dataset
 
 ```
-#Code here
+#sat_score %>% count()
 ```
 
 Result:
 
 ```
-#Copy Result from console to here
+#  n
+1 485
 ```
 
 //Explain
